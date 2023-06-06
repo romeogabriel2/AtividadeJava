@@ -1,0 +1,26 @@
+public class ClassAverage {
+	public static void main(String[] args) {
+		// cria Scanner para obter entrada a partir da janela de comando
+		Scanner input = new Scanner(System.in);
+
+		// Fase de inicialização
+		int total = 0; // inicializa a soma da notas inseridas pelo usuário
+		int gradeCounter = 1; // inicializa o numero da nota a ser inserido em seguida
+
+		// Fase de processamento utiliza repetição controlada por contador
+		while (gradeCounter <= 10) // faz o loop 10 vezes
+		{
+			System.out.print("Enter grade: "); // prompt
+			int grade = input.nextInt(); // insere a próxima nota
+			total = total + grade; // adiciona grade total
+			gradeCounter = gradeCounter + 1; // incrementa o contador por 1
+		}
+
+		// fase de término
+		int average = total / 10; // divisão de inteiros produz um resultado inteiro
+
+		// exibe o total e a média das notas
+		System.out.printf("%nTotal of all 10 grades in %d%n", total);
+		System.out.printf("Class average is %d%n", average);
+	}
+} // fim da classe ClassAverage

@@ -1,0 +1,8 @@
+spring.datasource.url=jdbc:mysql://10.26.44.232:3306/acessobanco?usessl=false
+spring.datasource.username==root
+spring.datasource.password=123@senac
+spring.jpa.properties.hibernate.dialect=or.hibernate.dialetc.MySQL8Dialect
+spring.jpa.hibernate.ddl-auto=update
+
+#porta do servidor spring
+server.port=8080

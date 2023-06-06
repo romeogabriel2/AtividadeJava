@@ -1,0 +1,5 @@
+package com.projeto.acesso.Repository;
+
+public interface ClienteRepository {
+
+}

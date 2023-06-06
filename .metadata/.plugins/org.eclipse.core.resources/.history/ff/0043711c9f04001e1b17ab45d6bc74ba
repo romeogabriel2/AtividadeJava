@@ -1,0 +1,5 @@
+package com.projeto.acesso.controllers;
+
+public class ClienteController {
+
+}
